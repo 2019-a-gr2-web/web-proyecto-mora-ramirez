@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed66587-2438-4e14-b635-54dd34a913f6" name="Default Changelist" comment="" />
+    <list default="true" id="5ed66587-2438-4e14-b635-54dd34a913f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/56d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/6-60713_facebook-twitter-instagram-pinterest-facebook-twitter-icon-png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/69366.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/BBNcoOA.img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_1162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/ECUADOR-QUITO-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Fondox.net_postre-de-chocolate-con-cereza_2560x1600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/GelatinaTricolor526x546.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/arreglos-con-frutas-para-fiestas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/arreglos-frutales-florales-y-desayunos-sopresas-D_NQ_NP_896905-MEC29404840060_022019-Q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/comestibles-D_NP_983911-MEC20663678122_042016-Q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/e71089fde2dd9d22b4f8672a80c81a59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/food-cakes-hd-background-74339.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/gelatinas-decoradas-D_NQ_NP_826165-MLU27154006762_042018-F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/kit-completo-gelatina-artistica-con-recetario-jelly-florist-D_NQ_NP_450811-MLM20645095719_032016-F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/kit-gelatina-girasol-con-gurbias-y-recetario-jelly-florist-D_NQ_NP_678811-MLM20645153472_032016-F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/postre-de-lim-n-265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/ramo-bombon-grande_1024x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/slide-reposteria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/white-twitter-icon-png-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/índice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/índice1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pasteleria-proyecto/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pasteleria-proyecto/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pasteleria-proyecto/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pasteleria-proyecto/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pasteleria-proyecto/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pasteleria-proyecto/src/main.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,14 +45,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="120">
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -33,19 +90,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/pasteleria-proyecto/src/main.ts" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/web-proyecto-mora-ramirez.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs" />
       </list>
     </option>
   </component>
@@ -60,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,24 +124,49 @@
               <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
               <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="publico" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
+              <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="publico" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
+              <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
+              <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ramirez-buendia-daniel-sebastian" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\danie\Documents\web-proyecto-mora-ramirez\pasteleria-proyecto\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Documents\web-proyecto-mora-ramirez\pasteleria-proyecto\publico\imagenes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,25 +190,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560254138769</updated>
-      <workItem from="1560254140005" duration="1627000" />
+      <workItem from="1560254140005" duration="2088000" />
+      <workItem from="1561465317958" duration="7791000" />
+      <workItem from="1561561572770" duration="6377000" />
+      <workItem from="1561577168114" duration="651000" />
+      <workItem from="1562068147774" duration="10525000" />
+      <workItem from="1562104482758" duration="948000" />
+      <workItem from="1562515604964" duration="3174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1627000" />
+    <option name="totallyTimeSpent" value="31554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23511904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32991454" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -143,10 +217,35 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33630952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -159,12 +258,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="120">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
