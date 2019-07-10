@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pasteles</title>
+    <link rel="stylesheet" href="/imagenes/logo-2.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .container{
+            background-color: white;
+            max-width: none;
+        }
+        .row.rw1{
+            background-color: #13A89E;
+        }
+        .imagenLogo{
+            width: 100px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .imagenResena{
+            display: block;
+            margin-left: auto;
+            margin-right: 50px;
+            width: 300px;
+            height: auto;
+        }
+        .imagenResena2{
+            display: block;
+            margin-right: auto;
+            margin-left: 50px;
+            width: 300px;
+            height: auto;
+        }
+        .textoImagen1{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            color: white;
+        }
+        .textoImagen2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        .rw5{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+        .imagenContactanos{
+            width: 100%;
+            height: auto;
+        }
+        .imagenLogo2{
+            width: 50px;
+            height: auto;
+        }
+        .row.pasteles{
+            width: 100%;
+            margin: 0px;
+        }
+        .textoPastel{
+            text-align: right;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row rw1">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="/api/home"><img class="imagenLogo" src="/imagenes/logo-2.png" alt="Logo YITHO's"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/api/nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/api/home" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Productos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Pasteles</a>
+                            <a class="dropdown-item" href="#">Gelatinas</a>
+                            <a class="dropdown-item" href="#">Arreglos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Encuentranos</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Carro de Compras</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+        <img src="/imagenes/food-cakes-hd-background-74339_2.jpg" alt="pasteles">
+        <p class="textoImagen2">Pasteles</p>
+    </div>
+    <div class="row">
+        <div class="row pasteles">
+            <div class="col-sm-6">
+                <img class="imagenResena" src="/imagenes/Cafef_HQ_171.jpg" alt="tentación de maracuya">
+            </div>
+            <div class="col-sm-6">
+                <p>Tentación de Maracuyá</p>
+                <button class="btn btn-success btn-lg" href="#" role="button" >Ver más</button>
+            </div>
+        </div>
+        <div class="row pasteles">
+            <div class="col-sm-6 textoPastel">
+                <p>Selva Negra</p>
+                <button class="btn btn-success btn-lg" href="#" role="button" >Ver más</button>
+            </div>
+            <div class="col-sm-6">
+                <img class="imagenResena2" src="/imagenes/Cafef_HQ_173.jpg" alt="tentación de maracuya">
+            </div>
+        </div>
+        <div class="row pasteles">
+            <div class="col-sm-6">
+                <img class="imagenResena" src="/imagenes/Cafef_HQ_1162.jpg" alt="tentación de maracuya">
+            </div>
+            <div class="col-sm-6">
+                <p>Cheesecake de Frutos Rojos Frío</p>
+                <button class="btn btn-success btn-lg" href="#" role="button" >Ver más</button>
+            </div>
+        </div>
+        <div class="row pasteles">
+            <div class="col-sm-6 textoPastel">
+                <p>Tres Leches</p>
+                <button class="btn btn-success btn-lg" href="#" role="button" >Ver más</button>
+            </div>
+            <div class="col-sm-6">
+                <img class="imagenResena2" src="/imagenes/Cafef_HQ_24.jpg" alt="tentación de maracuya">
+            </div>
+        </div>
+    </div>
+    <div class="row rw5">
+        <img class="imagenContactanos" src="/imagenes/ECUADOR-QUITO-4.jpg" alt="imagen quito">
+        <div class="textoImagen1">
+            <p>Locales, Horarios y Contacto</p>
+        </div>
+        <div class="textoImagen2">
+            <p>Encuentranos</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <img class="imagenLogo" src="/imagenes/logo-2.png" alt="Logo YITHO's">
+        </div>
+        <div class="col-sm-9">
+            <img class="imagenLogo2" src="/imagenes/69366.png" alt="Logo YITHO's">
+            <img class="imagenLogo2" src="/imagenes/6-60713_facebook-twitter-instagram-pinterest-facebook-twitter-icon-png.png" alt="Logo YITHO's">
+            <img class="imagenLogo2" src="/imagenes/white-twitter-icon-png-11.png" alt="Logo YITHO's">
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

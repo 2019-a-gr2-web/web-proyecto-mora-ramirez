@@ -14,4 +14,12 @@ export class AppController {
   nosotros(@Res() res) {
     res.render('nosotros');
   }
+  @Get('pasteles')
+  pasteles(@Res() res) {
+    res.render('pasteles');
+  }
+  @Get('gelatinas')
+  gelatinas(@Res() res) {
+    res.render('gelatinas');
+  }
 }
