@@ -10,4 +10,8 @@ export class AppController {
   home(@Res() res) {
     res.render('home');
   }
+  @Get('nosotros')
+  nosotros(@Res() res) {
+    res.render('nosotros');
+  }
 }
