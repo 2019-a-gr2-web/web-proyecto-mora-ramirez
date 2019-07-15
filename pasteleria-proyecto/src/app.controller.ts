@@ -72,4 +72,9 @@ export class AppController {
         res.render('menu');
     }
 
+    @Get('usuario')
+    getUsuario(@Res() res) {
+        res.render('usuario');
+    }
+
 }

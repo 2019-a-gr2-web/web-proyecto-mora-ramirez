@@ -1,6 +1,6 @@
 import {Injectable} from '@nestjs/common';
 import {InjectRepository} from '@nestjs/typeorm';
-import {DeleteResult, FindOneOptions, Repository, UpdateResult} from 'typeorm';
+import {DeleteResult, FindOneOptions, Like, Repository, UpdateResult} from 'typeorm';
 import {UsuarioEntity} from './usuario.entity';
 import {Usuario} from './interfaces/usuario';
 
@@ -24,7 +24,6 @@ export class UsuarioService {
             }
         });
 
-
         if (respuesta) {
             return respuesta.password === password;
             //return true;
@@ -43,6 +42,8 @@ export class UsuarioService {
     actualizarUsuario(idUsuario: number, usuarioActualizado: Usuario): Promise<UpdateResult> {
         //usuarioActualizado.id = idUsuario;
         //const usuarioEntidad = this._usuarioRepository.create(nuevoUsuario);
+        const id = idUsuario;
+        console.log('RESPUESTA: ', id, usuarioActualizado.username, usuarioActualizado.password, usuarioActualizado.tipo);
         return this._usuarioRepository.update(idUsuario, {
             username: usuarioActualizado.username,
             password: usuarioActualizado.password,
@@ -54,18 +55,33 @@ export class UsuarioService {
         return this._usuarioRepository.delete(idUsuario);
     }
 
-    buscar(parametrosBusqueda?):Promise<Usuario[]>{ //Trago[] o TragosEntity[]
+
+
+    buscar(parametrosBusqueda?): Promise<Usuario[]> { //Trago[] o TragosEntity[]
         return this._usuarioRepository.find(parametrosBusqueda);
     }
 
-    buscarUsuario(username: string): Promise<Usuario> {
-        return this._usuarioRepository.findOne(
-            {
-                where:
-                    {
-                        username: username
-                    }
-            });
+    buscarPorId(idUsuario: number): Promise<UsuarioEntity> {
+        return this._usuarioRepository.findOne(idUsuario);
     }
+
+    /*buscarUsuario(username?): Promise<Usuario[]> {
+        return this._usuarioRepository.find(username)
+    }*/
+
+    async buscarUsuario(username?: string): Promise<UsuarioEntity> {
+        return this._usuarioRepository.findOne({where: {username: Like(`%${username}%`)}});
+    }
+
+//}
+
+/*
+    buscarUsuario(username: string): Promise<Usuario[]> {
+        return this._usuarioRepository..filter(
+            (usuario)=>{
+                return usuario.username.includes(username);
+            }
+        );
+    }*/
 
 }

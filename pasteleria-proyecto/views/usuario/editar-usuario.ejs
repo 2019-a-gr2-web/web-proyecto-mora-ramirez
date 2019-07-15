@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gestion usuarios</title>
+    <title>Editar usuario</title>
     <link rel="stylesheet" href="/imagenes/logo-2.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -85,18 +85,15 @@
         }
 
 
-
-
-
-
-
-        .encabezado{
+        .encabezado {
             background: gray;
             color: white;
         }
-        .container{
+
+        .container {
             background: white;
         }
+
         .btn, .btn-salir {
             padding-left: 28px;
             padding-right: 28px;
@@ -104,34 +101,33 @@
             background: seagreen;
             font-weight: 800;
             font-size: .8125rem;
-            font-family: "Roboto",sans-serif;
+            font-family: "Roboto", sans-serif;
             color: white;
 
-            right:50%;
-            left:45%;
+            right: 50%;
+            left: 45%;
         }
 
-        .btn{
-            background:darkslategrey;
-            color:white;
+        .btn {
+            background: darkslategrey;
+            color: white;
         }
 
-        table,tr,td, th{
+        table, tr, td, th {
             border: solid black 1px;
             text-align: center;
         }
-        table{
+
+        table {
             border: solid black 2px;
             width: 100%;
         }
 
 
-        .separador{
+        .separador {
             margin-top: 100px;
             margin-bottom: 100px;
         }
-
-
 
 
     </style>
@@ -140,94 +136,69 @@
 <body>
 <div class="container">
 
-    <%- include('../componentes/menu/menu')%>
+    <%- include('../componentes/menu/menu') %>
 
     <div class="row rw5">
 
 
-        <h1 style="text-align: center">Gestion de usuarios</h1>
+
+        <h1 style="text-align: center">Editar usuario</h1>
         <div class="separador"></div>
 
-            <form action="/api/usuario/buscar" method="POST">
-
-                <div class="row">
-                    <div class="col-sm-2" style="position: relative">
-                        <label for="busquedaUsuario">Busqueda</label>
-                    </div>
-
-                    <div class="col-sm-4" style="position: relative">
-                        <input class="form-control" id="busquedaUsuario"  name="busquedaUsuario" type="text" style="width: 240px">
-                    </div>
-
-
-                    <div class="col-sm-6">
-                        <button class="btn" style="position:relative;top:50%; left:50%;">Buscar</button>
-                    </div>
-
-
-                </div>
-            </form>
+        <form action="/api/usuario/editar/<%=idUsuario%>" method="POST">
 
             <div class="row">
-                <div class="col-sm-6" style="position: relative">
-
+                <div class="col-sm-4">
+                    <label for="username">Nombre de usuario </label>
                 </div>
-                <div class="col-sm-6"  >
-                    <a href="/api/usuario/crear">
-                        <button type="submit" class="btn" style="position:relative;top:50%; left:50%; ">Crear</button>
+                <div class="col-sm-8">
+                    <input id="username" name="username" type="text" style="width: 400px">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="password">Password </label>
+                </div>
+                <div class="col-sm-8">
+                    <input id="password" name="password" type="password" style="width: 400px">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="tipoId">Tipo de usuario</label>
+                </div>
+                <div class="col-sm-8">
+                    <select name="tipo" id="tipoId" style="width: 400px">
+                        <option value="administrador" selected>administrador</option>
+                        <option value="cliente">cliente</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <input id="id" name="id" type="number" value="<%= idUsuario %>"  hidden >
+                    <button class="btn" type="submit" style="width: 180px">Modificar</button>
+                </div>
+                <div class="col-sm-9">
+                    <a href="/api/usuario/lista">
+                        <button class="btn" type="button" style="width: 180px">Cancelar</button>
                     </a>
+
+
                 </div>
             </div>
-        </div>
-        <br>
-        <br>
+        </form>
 
-
-
-
-        <div class="container" style="flex-wrap: wrap">
-            <div class="row">
-                <div class="col-md-6">
-                    <span style="font-size: 1.6em"> Lista de usuarios</span>
-                </div>
-            </div>
-
-            <div class="row">
-                <table>
-                    <tr>
-                        <th>Nombre de usuario</th>
-                        <th>Tipo usuario</th>
-                        <th>Acciones</th>
-
-
-                    </tr>
-                    <%arregloUsuarios.forEach((usuario)=>{ %>
-                        <tr>
-                            <td> <%= usuario.username %> </td>
-                            <td> <%= usuario.tipo %> </td>
-
-                            <td>
-                                <a href="/api/usuario/editar/<%=usuario.id%>">
-                                    <button class="btn">Editar</button>
-                                </a>
-                                <br>
-                                <br>
-                                <form action="/api/usuario/eliminar" method="post">
-                                    <input id="id" name="id" type="number" value="<%= usuario.id %>"  hidden >
-                                    <button class="btn">Borrar</button>
-                                </form>
-                            </td>
-                        </tr>
-                    <% }) %>
-                </table>
-            </div>
-        </div>
-
+    </div>
 
     <div class="separador"></div>
 
-    <%- include('../componentes/footer/footer')%>
-    </div>
+    <%- include('../componentes/footer/footer') %>
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

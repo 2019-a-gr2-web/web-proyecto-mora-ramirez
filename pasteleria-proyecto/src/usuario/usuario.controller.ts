@@ -1,4 +1,4 @@
-import {Body, Controller, Get, Param, Post, Query, Res} from '@nestjs/common';
+import {Body, Controller, Get, Param, Post, Query, Res, Request} from '@nestjs/common';
 import {UsuarioService} from './usuario.service';
 import {Usuario} from './interfaces/usuario';
 import {validate} from "class-validator";
@@ -16,6 +16,7 @@ export class UsuarioController {
         @Res() res
     ) {
         const arregloUsuarios = await this._usuarioService.buscar();
+        console.log('Get lista: ', arregloUsuarios);
         res.render('usuario/lista-usuarios', {
             arregloUsuarios: arregloUsuarios
         })
@@ -28,7 +29,7 @@ export class UsuarioController {
         @Query('mensaje') mensaje: string,
     ) {
         res.render(
-            'usuario/crear-editar', {
+            'usuario/crear-usuario', {
                 mensaje: mensaje
             }
         )
@@ -92,20 +93,24 @@ export class UsuarioController {
     }
 
     @Get('editar/:id')
-    editarUsuario(
+    async editarUsuarioGet(
         @Res() res,
-        @Param() param,
+        @Param('id') id: string,
         @Query('mensaje') mensaje: string,
+        @Body() usuario: Usuario,
     ) {
+        const usuarioEncontrado = await this._usuarioService.buscarPorId(Number(id));
+
         res.render(
-            'usuario/crear-editar', {
-                mensaje: mensaje
+            'usuario/editar-usuario', {
+                idUsuario: usuarioEncontrado.id,
             }
         )
     }
 
-    @Post('editar')
+    @Post('editar/:id')
     async editarUsuarioPost(
+        @Param('id') id: string,
         @Body() usuario: Usuario,
         @Res() res,
     ) {
@@ -114,6 +119,7 @@ export class UsuarioController {
         usuarioAValidar.username = usuario.username;
         usuarioAValidar.password = usuario.password;
         usuarioAValidar.tipo = usuario.tipo;
+        console.log('usuarioAvalidar post: ', id, usuario, usuarioAValidar, usuarioAValidar.id, usuario.id);
 
         try {
             const errores = await validate(usuarioAValidar);
@@ -123,9 +129,9 @@ export class UsuarioController {
                 //res.redirect('/api/traguito/editar/'+trago.id+'?mensaje=Tienes un error en el formulario&campos=nombre');
             } else {
                 const respuestaEditar = await this._usuarioService
-                    .actualizarUsuario(usuario.id, usuario); // Promesa
+                    .actualizarUsuario(Number(id), usuario); // Promesa
 
-                console.log('RESPUESTA: ', respuestaEditar);
+                console.log('RESPUESTA EDITAR: ', respuestaEditar);
 
                 res.redirect('/api/usuario/lista');
             }
@@ -136,5 +142,35 @@ export class UsuarioController {
             res.send({mensaje: 'Error', codigo: 500})
         }
     }
+
+
+    @Post('/buscar')
+    async postBuscarUsuario(
+        @Res() res,
+        //@Body('username') username: string,
+        @Body('busquedaUsuario') usuario: string,
+        @Request() request
+    ) {
+        //const cookieSegura = request.signedCookies;
+        const usuarioEncontrado = await this._usuarioService.buscarUsuario(usuario);
+
+        var arregloUsuarios = [usuarioEncontrado];
+
+        if(usuario!= "" && usuarioEncontrado!=undefined){
+            res.render('usuario/lista-usuarios', {
+                arregloUsuarios: arregloUsuarios/*,username:cookieSegura.username*/
+
+            });
+            //res.redirect('/api/usuario/lista');
+        }else {
+            res.redirect('/api/usuario/lista');
+        }
+    }
+
+
+
+
+
+
 
 }
