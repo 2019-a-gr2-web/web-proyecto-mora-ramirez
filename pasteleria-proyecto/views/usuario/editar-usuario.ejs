@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editar usuario</title>
+    <link rel="stylesheet" href="/imagenes/logo-2.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .container {
+            background-color: white;
+            max-width: none;
+        }
+
+        .row.rw1 {
+            background-color: #13A89E;
+        }
+
+        .imagenLogo {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .navbar {
+            width: 100%;
+        }
+
+        .imagenProductos {
+            width: 100%;
+            height: 281.03px;
+        }
+
+        .productos {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .resena {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .imagenResena {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .textoImagen1 {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            color: white;
+        }
+
+        .textoImagen2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: white;
+        }
+
+        .rw5 {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .imagenContactanos {
+            width: 100%;
+            height: auto;
+        }
+
+        .imagenLogo2 {
+            width: 50px;
+            height: auto;
+        }
+
+
+        .encabezado {
+            background: gray;
+            color: white;
+        }
+
+        .container {
+            background: white;
+        }
+
+        .btn, .btn-salir {
+            padding-left: 28px;
+            padding-right: 28px;
+
+            background: seagreen;
+            font-weight: 800;
+            font-size: .8125rem;
+            font-family: "Roboto", sans-serif;
+            color: white;
+
+            right: 50%;
+            left: 45%;
+        }
+
+        .btn {
+            background: darkslategrey;
+            color: white;
+        }
+
+        table, tr, td, th {
+            border: solid black 1px;
+            text-align: center;
+        }
+
+        table {
+            border: solid black 2px;
+            width: 100%;
+        }
+
+
+        .separador {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+
+    <%- include('../componentes/menu/menu') %>
+
+    <div class="row rw5">
+
+
+
+        <h1 style="text-align: center">Editar usuario</h1>
+        <div class="separador"></div>
+
+        <form action="/api/usuario/editar/<%=idUsuario%>" method="POST">
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="username">Nombre de usuario </label>
+                </div>
+                <div class="col-sm-8">
+                    <input id="username" name="username" type="text" style="width: 400px">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="password">Password </label>
+                </div>
+                <div class="col-sm-8">
+                    <input id="password" name="password" type="password" style="width: 400px">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="tipoId">Tipo de usuario</label>
+                </div>
+                <div class="col-sm-8">
+                    <select name="tipo" id="tipoId" style="width: 400px">
+                        <option value="administrador" selected>administrador</option>
+                        <option value="cliente">cliente</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <input id="id" name="id" type="number" value="<%= idUsuario %>"  hidden >
+                    <button class="btn" type="submit" style="width: 180px">Modificar</button>
+                </div>
+                <div class="col-sm-9">
+                    <a href="/api/usuario/lista">
+                        <button class="btn" type="button" style="width: 180px">Cancelar</button>
+                    </a>
+
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="separador"></div>
+
+    <%- include('../componentes/footer/footer') %>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

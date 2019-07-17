@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed66587-2438-4e14-b635-54dd34a913f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/56d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/6-60713_facebook-twitter-instagram-pinterest-facebook-twitter-icon-png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/69366.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/BBNcoOA.img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_1162.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_171.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_173.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Cafef_HQ_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/ECUADOR-QUITO-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/Fondox.net_postre-de-chocolate-con-cereza_2560x1600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/GelatinaTricolor526x546.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/arreglos-con-frutas-para-fiestas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/arreglos-frutales-florales-y-desayunos-sopresas-D_NQ_NP_896905-MEC29404840060_022019-Q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/comestibles-D_NP_983911-MEC20663678122_042016-Q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/e71089fde2dd9d22b4f8672a80c81a59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/food-cakes-hd-background-74339.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/gelatinas-decoradas-D_NQ_NP_826165-MLU27154006762_042018-F.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/kit-completo-gelatina-artistica-con-recetario-jelly-florist-D_NQ_NP_450811-MLM20645095719_032016-F.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/kit-gelatina-girasol-con-gurbias-y-recetario-jelly-florist-D_NQ_NP_678811-MLM20645153472_032016-F.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/postre-de-lim-n-265.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/ramo-bombon-grande_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/slide-reposteria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/white-twitter-icon-png-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/índice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/publico/imagenes/índice1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/views/gelatinas.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/views/nosotros.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pasteleria-proyecto/views/pasteles.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pasteleria-proyecto/views/componentes/menu/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/pasteleria-proyecto/views/componentes/menu/menu.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,13 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/main.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="116">
+              <caret line="158" column="55" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,53 +44,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="452">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/menu.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="95" column="77" selection-start-line="95" selection-start-column="77" selection-end-line="95" selection-end-column="77" />
+            <state relative-caret-position="-216">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/usuario/crear-usuario.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="180" column="89" selection-start-line="180" selection-start-column="89" selection-end-line="180" selection-end-column="89" />
               <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#h1#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/pasteles.ejs">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/usuario/lista-usuarios.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+            <state relative-caret-position="246">
+              <caret line="209" column="78" selection-start-line="209" selection-start-column="78" selection-end-line="209" selection-end-column="78" />
               <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/gelatinas.ejs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/usuario/editar-usuario.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
+            <state relative-caret-position="284">
+              <caret line="182" column="79" selection-start-line="182" selection-start-column="79" selection-end-line="182" selection-end-column="79" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,17 +116,32 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pasteleria-proyecto" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/main.ts" />
         <option value="$PROJECT_DIR$/pasteleria-proyecto/views/nosotros.ejs" />
-        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts" />
-        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs" />
         <option value="$PROJECT_DIR$/pasteleria-proyecto/views/pasteles.ejs" />
         <option value="$PROJECT_DIR$/pasteleria-proyecto/views/gelatinas.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/main.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/usuario/interfaces/usuario.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.entity.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.module.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/usuario/dto/usuario.create.dto.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/usuario/dto/usuario.update.dto.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/login.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/componentes/footer/footer.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/menu.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/componentes/menu/menu.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/usuario/crear-usuario.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/usuario/lista-usuarios.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/views/usuario/editar-usuario.ejs" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.service.ts" />
+        <option value="$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.controller.ts" />
       </list>
     </option>
   </component>
@@ -139,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,20 +173,22 @@
               <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
               <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="publico" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
-              <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="publico" type="462c0819:PsiDirectoryNode" />
-              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
               <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
+              <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
@@ -176,11 +196,24 @@
               <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
+              <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-proyecto-mora-ramirez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-proyecto-mora-ramirez" type="462c0819:PsiDirectoryNode" />
+              <item name="pasteleria-proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,10 +226,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\danie\Documents\web-proyecto-mora-ramirez\pasteleria-proyecto\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\fatima\Documents\GitHub\web-proyecto-mora-ramirez\pasteleria-proyecto\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fatima\Documents\GitHub\web-proyecto-mora-ramirez\pasteleria-proyecto\views" />
+      <recent name="C:\Users\fatima\Documents\GitHub\web-proyecto-mora-ramirez\pasteleria-proyecto\src\usuario" />
       <recent name="C:\Users\danie\Documents\web-proyecto-mora-ramirez\pasteleria-proyecto\publico\imagenes" />
     </key>
   </component>
@@ -230,17 +265,20 @@
       <workItem from="1562104482758" duration="948000" />
       <workItem from="1562515604964" duration="3289000" />
       <workItem from="1562775010979" duration="6932000" />
+      <workItem from="1562976192621" duration="9978000" />
+      <workItem from="1563063577741" duration="20661000" />
+      <workItem from="1563132050822" duration="23132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38601000" />
+    <option name="totallyTimeSpent" value="92372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20089285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20089285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,7 +291,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32991454" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -294,80 +332,191 @@
     <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.service.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/gelatinas.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3648">
+          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="264">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/nosotros.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="124" column="14" lean-forward="true" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
+        <state relative-caret-position="2736">
+          <caret line="114" column="30" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/pasteles.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3672">
+          <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/interfaces/usuario.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/dto/usuario.update.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="171" column="11" selection-start-line="171" selection-start-column="11" selection-end-line="171" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/componentes/footer/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="76" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/componentes/menu/menu.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/menu.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/dto/usuario.create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/usuario/crear-usuario.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="180" column="89" selection-start-line="180" selection-start-column="89" selection-end-line="180" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="452">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/home.ejs">
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/usuario/editar-usuario.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="95" column="77" selection-start-line="95" selection-start-column="77" selection-end-line="95" selection-end-column="77" />
+        <state relative-caret-position="284">
+          <caret line="182" column="79" selection-start-line="182" selection-start-column="79" selection-end-line="182" selection-end-column="79" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#1;n#div#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/pasteles.ejs">
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+        <state relative-caret-position="356">
+          <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/gelatinas.ejs">
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/views/usuario/lista-usuarios.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
+        <state relative-caret-position="246">
+          <caret line="209" column="78" selection-start-line="209" selection-start-column="78" selection-end-line="209" selection-end-column="78" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pasteleria-proyecto/src/usuario/usuario.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="158" column="55" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
