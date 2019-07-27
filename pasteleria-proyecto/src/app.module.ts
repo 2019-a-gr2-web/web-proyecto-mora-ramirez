@@ -3,10 +3,14 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsuarioModule } from "./usuario/usuario.module";
 import {TypeOrmModule} from '@nestjs/typeorm';
+import {ClienteModule} from './cliente/cliente.module';
+import {BodegaModule} from './bodega/bodega.module';
 
 @Module({
   imports: [
       UsuarioModule,
+      ClienteModule,
+      BodegaModule,
     TypeOrmModule.forRoot({
       name: 'default', //Nombre cadena de conexion por defecto de TYPEORM
       type: 'mysql',
