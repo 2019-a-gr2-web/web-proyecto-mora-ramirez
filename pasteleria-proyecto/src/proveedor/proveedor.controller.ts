@@ -17,10 +17,10 @@ export class ProveedorController {
   async listaProveedores(
     @Res() res
   ) {
-    const arregloProveedores = await this._proveedorService.buscar();
-    console.log('Get lista: ', arregloProveedores);
+    const arregloProveedor = await this._proveedorService.buscar();
+    console.log('Get lista: ', arregloProveedor);
     res.render('proveedor/lista-proveedor', {
-      arregloProveedores: arregloProveedores
+      arregloProveedor: arregloProveedor
     })
 
   }

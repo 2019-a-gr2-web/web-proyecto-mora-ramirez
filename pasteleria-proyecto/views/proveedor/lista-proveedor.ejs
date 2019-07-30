@@ -206,15 +206,15 @@
 
 
                 </tr>
-                <%arregloProveedores.forEach((proveedor)=>{ %>
+                <%arregloProveedor.forEach((proveedor)=>{ %>
                     <tr>
-                        <td> <%= proveedor.cedula %> </td>
-                        <td> <%= proveedor.nombre %> </td>
-                        <td> <%= proveedor.apellido %> </td>
-                        <td> <%= proveedor.telefono %> </td>
-                        <td> <%= proveedor.correo %> </td>
-                        <td> <%= proveedor.direccion %> </td>
-                        <td> <%= proveedor.estado %> </td>
+                        <td> <%= proveedor.cedulaP %> </td>
+                        <td> <%= proveedor.nombreP %> </td>
+                        <td> <%= proveedor.apellidoP %> </td>
+                        <td> <%= proveedor.telefonoP %> </td>
+                        <td> <%= proveedor.correoP %> </td>
+                        <td> <%= proveedor.direccionP %> </td>
+                        <td> <%= proveedor.estadoP %> </td>
 
                         <td>
                             <a href="/api/proveedor/editar/<%=proveedor.idProveedor%>">
