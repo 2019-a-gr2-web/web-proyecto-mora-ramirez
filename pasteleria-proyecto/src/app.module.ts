@@ -13,6 +13,7 @@ import { ProveedorModule } from './proveedor/proveedor.module';
       ClienteModule,
       BodegaModule,
       ProveedorModule,
+
     TypeOrmModule.forRoot({
       name: 'default', //Nombre cadena de conexion por defecto de TYPEORM
       type: 'mysql',
