@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Editar cliente</title>
+    <title>Editar Proveedor</title>
     <link rel="stylesheet" href="/imagenes/logo-2.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -142,53 +142,53 @@
 
 
 
-        <h1 style="text-align: center">Editar cliente</h1>
+        <h1 style="text-align: center">Editar Proveedor</h1>
         <div class="separador"></div>
 
-        <form action="/api/cliente/editar/<%=idCli%>" method="POST">
+        <form action="/api/proveedor/editar/<%=idProveedor%>" method="POST">
 
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="nombre">Nombre </label>
+                    <label for="nombreP">Nombre </label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="nombre" name="nombre" type="text" style="width: 400px">
+                    <input id="nombreP" name="nombreP" type="text" style="width: 400px">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="apellido">Apellido </label>
+                    <label for="apellidoP">Apellido </label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="apellido" name="apellido" type="text" style="width: 400px">
+                    <input id="apellidoP" name="apellidoP" type="text" style="width: 400px">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="telefono">Telefono </label>
+                    <label for="telefonoP">Telefono </label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="telefono" name="telefono" type="text" style="width: 400px">
+                    <input id="telefonoP" name="telefonoP" type="text" style="width: 400px">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="correo">Correo </label>
+                    <label for="correoP">Correo </label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="correo" name="correo" type="text" style="width: 400px">
+                    <input id="correoP" name="correoP" type="text" style="width: 400px">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="direccion">Direccion </label>
+                    <label for="direccionP">Direccion </label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="direccion" name="direccion" type="text" style="width: 400px">
+                    <input id="direccionP" name="direccionP" type="text" style="width: 400px">
                 </div>
             </div>
 
@@ -206,11 +206,11 @@
 
             <div class="row">
                 <div class="col-sm-3">
-                    <input id="id" name="id" type="number" value="<%= idCli %>"  hidden >
+                    <input id="id" name="id" type="number" value="<%= idProveedor %>"  hidden >
                     <button class="btn" type="submit" style="width: 180px">Modificar</button>
                 </div>
                 <div class="col-sm-9">
-                    <a href="/api/cliente/lista">
+                    <a href="/api/proveedor/lista">
                         <button class="btn" type="button" style="width: 180px">Cancelar</button>
                     </a>
 
