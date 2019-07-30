@@ -55,7 +55,7 @@ export class UsuarioController {
                 console.error(errores);
                 //res.status(400);
                 //res.send({mensaje: 'Error', codigo: 400});
-                //res.redirect('/api/traguito/crear?mensaje=Tienes un error en el formulario&campos=nombre');
+                res.redirect('/api/usuario/crear?mensaje=Tienes un error en el formulario');
             } else {
 
                 const respuestaCrear = await this._usuarioService.crearUsuario(usuario); // Promesa
@@ -126,7 +126,7 @@ export class UsuarioController {
 
             if (errores.length > 0) {
                 console.error(errores);
-                //res.redirect('/api/traguito/editar/'+trago.id+'?mensaje=Tienes un error en el formulario&campos=nombre');
+                res.redirect('/api/usuario/editar/'+usuario.id+'?mensaje=Tienes un error en el formulario');
             } else {
                 const respuestaEditar = await this._usuarioService
                     .actualizarUsuario(Number(id), usuario); // Promesa

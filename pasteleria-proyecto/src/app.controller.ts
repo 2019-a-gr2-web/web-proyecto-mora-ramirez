@@ -1,12 +1,14 @@
 import {Body, Controller, Get, HttpCode, Param, Post, Query, Request, Res, Session} from '@nestjs/common';
 import {AppService} from './app.service';
 import {UsuarioService} from './usuario/usuario.service';
+import {ClienteService} from './cliente/cliente.service';
 import * as Joi from '@hapi/joi';
 
 @Controller('api')
 export class AppController {
     constructor(private readonly appService: AppService,
-                private readonly _usuarioService: UsuarioService
+                private readonly _usuarioService: UsuarioService,
+                private readonly _clienteService: ClienteService
     ) {
     }
 
@@ -75,6 +77,20 @@ export class AppController {
     @Get('usuario')
     getUsuario(@Res() res) {
         res.render('usuario');
+    }
+
+    @Get('cliente')
+    getCliente(@Res() res) {
+        res.render('cliente');
+    }
+
+    @Get('bodega')
+    getBodega(@Res() res) {
+        res.render('bodega');
+    }
+    @Get('proveedor')
+    getProveedores(@Res() res) {
+        res.render('proveedor');
     }
 
 }
