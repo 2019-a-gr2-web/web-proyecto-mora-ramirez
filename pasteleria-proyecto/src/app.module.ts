@@ -6,6 +6,7 @@ import {TypeOrmModule} from '@nestjs/typeorm';
 import {ClienteModule} from './cliente/cliente.module';
 import {BodegaModule} from './bodega/bodega.module';
 import { ProveedorModule } from './proveedor/proveedor.module';
+import { ProductoModule } from './producto/producto.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { ProveedorModule } from './proveedor/proveedor.module';
       ClienteModule,
       BodegaModule,
       ProveedorModule,
+      ProductoModule,
 
     TypeOrmModule.forRoot({
       name: 'default', //Nombre cadena de conexion por defecto de TYPEORM

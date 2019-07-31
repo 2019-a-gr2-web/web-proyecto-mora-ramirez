@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crear Proveedor</title>
+    <title>Editar Producto</title>
     <link rel="stylesheet" href="/imagenes/logo-2.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -142,85 +142,84 @@
 
 
 
-        <h1 style="text-align: center">Crear Proveedor</h1>
+        <h1 style="text-align: center">Editar Producto</h1>
         <div class="separador"></div>
-        <form action="/api/proveedor/crear" method="POST">
+
+        <form action="/api/producto/editar/<%=idProducto%>" method="POST">
+
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="cedulaP">Número de cédula </label>
+                    <label for="nombreProducto">Nombre</label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="cedulaP" name="cedulaP" type="text" style="width: 400px">
+                    <input id=nombreProducto"" name="nombreProducto" type="text" style="width: 400px">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="nombreP">Nombre </label>
+                    <label for="detalle">Detalle </label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="nombreP" name="nombreP" type="text" style="width: 400px">
+                    <input id="detalle" name="detalle" type="text" style="width: 400px">
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-sm-4">
-                    <label for="apellidoP">Apellido </label>
+                    <label for="tipo">Tipo </label>
                 </div>
                 <div class="col-sm-8">
-                    <input id="apellidoP" name="apellidoP" type="text" style="width: 400px">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <label for="telefonoP">Telefono </label>
-                </div>
-                <div class="col-sm-8">
-                    <input id="telefonoP" name="telefonoP" type="text" style="width: 400px">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <label for="correoP">Correo </label>
-                </div>
-                <div class="col-sm-8">
-                    <input id="correoP" name="correoP" type="text" style="width: 400px">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <label for="direccionP">Direccion </label>
-                </div>
-                <div class="col-sm-8">
-                    <input id="direccionP" name="direccionP" type="text" style="width: 400px">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <label for="estadoId">Estado </label>
-                </div>
-                <div class="col-sm-8">
-                    <select name="estado" id="estadoId" style="width: 400px">
-                        <option value="activo" selected>activo</option>
-                        <option value="inactivo">inactivo</option>
+                    <select name="tipo" id="tipo" style="width: 400px">
+                        <option value="Venta" selected>Venta</option>
+                        <option value="Consumo">Consumo</option>
                     </select>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="tipoEnvoltura">Tipo de Envoltura </label>
+                </div>
+                <div class="col-sm-8">
+                    <input id="tipoEnvoltura" name="tipoEnvoltura" type="text" style="width: 400px">
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="precio">Precio </label>
+                </div>
+                <div class="col-sm-8">
+                    <input id="precio" name="precio" type="text" style="width: 400px">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="tamanio">Tamaño </label>
+                </div>
+                <div class="col-sm-8">
+                    <input id="tamanio" name="tamanio" type="number" style="width: 400px">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="cantidad">Cantidad </label>
+                </div>
+                <div class="col-sm-8">
+                    <input id="cantidad" name="cantidad" type="number" style="width: 400px">
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-sm-3">
-                    <button class="btn" type="submit" style="width: 180px">Crear</button>
+                    <input id="id" name="id" type="number" value="<%= idProducto %>"  hidden >
+                    <button class="btn" type="submit" style="width: 180px">Modificar</button>
                 </div>
                 <div class="col-sm-9">
-                    <a href="/api/proveedor/lista">
+                    <a href="/api/producto/lista">
                         <button class="btn" type="button" style="width: 180px">Cancelar</button>
                     </a>
-
 
                 </div>
             </div>
