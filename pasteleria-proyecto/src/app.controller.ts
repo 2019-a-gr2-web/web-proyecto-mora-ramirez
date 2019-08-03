@@ -88,5 +88,9 @@ export class AppController {
     getBodega(@Res() res) {
         res.render('bodega');
     }
+    @Get('proveedor')
+    getProveedores(@Res() res) {
+        res.render('proveedor');
+    }
 
 }
